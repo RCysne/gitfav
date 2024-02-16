@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="./main.js" defer></script>
+
+    <title>GitFav</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <img id="logo" src="./assets/icon-gitfav.svg" alt="" />
+        <div class="search">
+          <label class="sr-only" for="input-search">Usuário do Github</label>
+          <input
+            type="text"
+            id="input-search"
+            placeholder="Digite o Github username que quer favoritar"
+          />
+          <button>
+            <img id="star" src="./assets/star.svg" alt="Ícone de uma estrela" />
+            FAVORITAR
+          </button>
+        </div>
+      </header>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Usuário</th>
+            <th>Repositories</th>
+            <th>Followers</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="profile">
+              <img id="profile-photo" src="./assets/profileImage.jpg" alt="" />
+              <div class="profile-name">
+                <p>Mayk Brito</p>
+                <p>/maykbrito</p>
+              </div>
+            </td>
+            <td>123</td>
+            <td>1234</td>
+            <td class="remove">Remover</td>
+          </tr>
+          <tr>
+            <td class="profile">
+              <img id="profile-photo" src="./assets/profileImage.jpg" alt="" />
+              <div class="profile-name">
+                <p>Diego 3g</p>
+                <p>/diego</p>
+              </div>
+            </td>
+            <td>456</td>
+            <td>4567</td>
+            <td class="remove">Remover</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
