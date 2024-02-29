@@ -1,6 +1,6 @@
 import { FavoritesView } from './js/Favorites.js'
 
-console.log(GitHubUser.search('rcysne'))
+
 
 new FavoritesView('#app')
 

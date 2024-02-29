@@ -85,7 +85,7 @@ header h1 {
   margin: 1rem 0 0 1rem;
 }
 
-#profile-photo {
+.profile-photo {
   height: 56px;
   width: 56px;
   border-radius: 50%;
