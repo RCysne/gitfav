@@ -5,7 +5,7 @@ export class Favorites {
     this.root = document.querySelector(root)
     this.load()
 
-    // GitHubUser.search('maykbrito').then(user => console.log(user))
+    // GitHubUser.search('RCysne').then(user => console.log(user))
   }
 
 
@@ -42,8 +42,6 @@ export class Favorites {
       } catch (error) {
         alert(error.message)
     }
-    
-
   }
   
   delete(user) {
@@ -59,11 +57,8 @@ export class Favorites {
 
 
 
-
-
-
 export class FavoritesView extends Favorites {
-  // Constructor recebe o app, e o super extende para o Favorites
+  // Constructor recebe o app, e o super estende para o Favorites
   constructor(root) {
     super(root)
 
@@ -112,12 +107,12 @@ export class FavoritesView extends Favorites {
     <td class="profile">
       <img class="profile-photo" src="./assets/profileImage.jpg" alt="" />
       <div class="profile-name">
-        <p class="name">Mayk Brito</p>
-        <p class="userName">/maykbrito</p>
+        <p class="name">RCysne</p>
+        <p class="userName">/ronaldocysne</p>
       </div>
     </td>
-    <td class="repositories">123</td>
-    <td class="gitFollowers">1234</td>
+    <td class="repositories">0</td>
+    <td class="gitFollowers">0</td>
     <td class="remove">Remover</td>
     `
 
