@@ -21,7 +21,7 @@ Como Utilizar
 Clone este repositório:
 bash
 Copiar código
-git clone https://github.com/RCysne/gitFav.git
+git clone https://github.com/RCysne/gitfav.git
 Para abrir o projeto, na pasta do gitfav, digite npm start
 
 Na interface da aplicação, insira o username do GitHub que deseja favoritar e clique no botão para adicionar à lista de favoritos.
